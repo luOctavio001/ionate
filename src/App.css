@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  text-align: left;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+
+.scrollTab{
+   overflow: auto;
+   height: 300px;
+}
+
+table, th, td{
+  border: 1px solid;
+  border-width: 1px!important;
+}
+
+td{
+  white-space: nowrap;
+  font-size: 14px;
+  text-align: right;
+}
+
+td.nombre{
+  text-align: left;
+}
+
+
+tbody{
+  background-color: #fff;
+}
+
+tr.header-table{
+  background-color:rgb(211 208 201);
+}
+
+
+
+tfoot{
+  background-color: cyan;
+  text-align: right;
+}
+
+
+.long{
+  width: 220px;
+}
+
+.short{
+  width: 110px;
+}
+
+.xshort{
+  width: 60px;
+}
+
+.customGrupBorder{
+  border: 1px solid #929292!important;
+  border-style: inset;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.iconsImg{
+  width: 25px;
+  height: 25px;
+}
+
+.iconsButton{
+  background-color: rgb(207, 207, 207)!important;
+  padding: 2px !important;
+  box-shadow: 2px 2px 2px 0px rgb(117 117 117);
+  border-color: #fff!important;
+}
+
+
+.menu  {
+  box-shadow: 2px 0px 2px 1px rgb(117 117 117);
+  border-style: outset;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  border-color: #fff!important;
+  white-space: nowrap;
+  padding: 2px;
+  border-radius: 2px 2px 0 2px;
+}
+
+
+.menu-active {
+  border-style: outset;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 0 solid;
+  border-right: 1px solid;
+  border-color: #fff!important;
+  white-space: nowrap;
+  border-radius: 2px;
+  border-radius: 2px 2px 0 2px;
+
+}
+
+.customGrupBorder2 {
+  border: 1px solid #929292!important;
+  border-style: inset;
+  padding: 20px 5px 5px 5px;
+  border-radius: 3px;
+  margin: 10px 5px 5px 5px;
+}
+
+.header-modalAB{
+  position: absolute;
+  top: -1px;
+  padding: 1px;
+  background-color: rgb(211 208 201)!important;
+}
+
+.containerBotton{
+  width: 50%;
+}
+
+.scrollTab2{
+  overflow: auto;
+
+}
+
+table.ejercicioB td{
+  min-width: 160px !important;
+}
+
+table.ejercicioA td{
+  min-width: 140px !important;
+}
+
+.partida{
+  text-align: left;
+}
+
+.TOTAL{
+  background-color: cyan;
+}
+
+.partida .TOTAL{
+  text-align: right;
+}
